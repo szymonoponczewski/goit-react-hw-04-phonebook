@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.deleteBtn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: crimson;
+}
